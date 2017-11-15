@@ -11,12 +11,3 @@ language: java
 
 jdk:
   - oraclejdk9
-addons:
-  sonarcloud:
-    organization: "nesqwik-github" # the key of the org you chose at step #3
-    token:
-      secure: $SONAR_TOKEN # encrypted value of your token
-script:
-  # other script steps might be done before running the actual analysis
-  - mvn test -B
-  - sonar-scanner
