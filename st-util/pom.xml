@@ -6,6 +6,9 @@
     <name>st-util</name>
     <version>7.4.2-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <configuration>
+        <skipTests>true</skipTests>
+    </configuration>
 
     <parent>
         <groupId>de.saring</groupId>
